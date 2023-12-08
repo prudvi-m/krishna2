@@ -1,0 +1,93 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Database
+*.sqlite3
+*.db
+
+# Static files
+/static/
+
+# Media files
+/media/
+
+# Virtual environment
+venv/
+env/
+
+# Logs
+*.log
+
+# Ignore the local settings file
+settings/local.py
+
+# Ignore the development environment configuration
+.env
+
+# Ignore generated HTML files
+*.html
+
+# Ignore the secret key
+secret_key.txt
+
+# Ignore database configuration
+db_config.json
+
+# Ignore Docker related files
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Ignore pipenv files
+Pipfile
+Pipfile.lock
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore the test database
+*.testdb
+
+# Ignore coverage reports
+htmlcov/
+
+# Ignore translations
+locale/
+
+# Ignore node modules
+node_modules/
+
+# Ignore compiled Python files in the "django" directory
+django/__pycache__/
+django/migrations/
+
+# Ignore local development settings
+local_settings.py
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore temporary files
+*.swp
+*.swo
+*.tmp
+
+# Ignore environment variables file
+.env
+
+# Ignore backup files
+*.bak
+*.backup
+*.bk
